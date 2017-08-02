@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>What you can do</title>
+  </head>
+  <header>
+    <ul>
+      <li style = "text-align:center"><a href = gmhomepage.html>Home</a></li>
+      <li style = "text-align:center"><a href = informationpage.html>Reycling Information</a></li>
+      <li style = "text-align:center"><a href = mappage.html>How You Can Help</a></li>
+      <li style = "text-align:center"><a href = contactpage.html>Contact Information</a></li>
+   </ul>
+
+    <h1>How You can Help</h1>
+  </header>
+  <link href='https://fonts.googleapis.com/css?family=Lobster Two' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <style media="screen">
+
+    body{
+      background-color: #eaffee
+    }
+    h1{
+      font-family:'Lobster Two';
+      text-align: center;
+      font-size: 40px;
+      color:#1b5e20
+    }
+    th{
+      background-color: rgb(112, 196, 105);
+      color:#1b5e20;
+      font-weight: normal;
+      padding: 20px 30px;
+      text-align: center;
+      font-family:'Lobster Two';
+      font-size: 25px;
+    }
+    td{
+      background-color: rgb(238, 238, 238);
+      color: rgb(111, 111, 111);
+      padding: 20px 30px;
+      font-family:'Roboto'
+    }
+    ul {
+      list-style-type: none;
+      padding:10px;
+      margin-top:25px;
+      overflow: hidden;
+      background-image: url("https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    }
+    li {
+        float: left;
+    }
+    li a {
+        font-family: "Lobster Two";
+        font-size: 25px;
+        display: inline;
+        color: white;
+        text-align: center;
+        padding: 5px 90px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #1b5e20;
+    }
+  </style>
+
+  <body>
+    <center>
+    <h2>Where to Start?</h2>
+    <p>Recycling used and un-used items is always a good way to protect the environment from the harmful </p>
+    <table style="width: 50%">
+      <tr>
+        <th>Recycle at Home</th>
+        <th>Bring to a Recycling Center</th>
+        <th>Compost</th>
+      </tr>
+      <tr>
+        <td>Paper</td>
+        <td>Batteries</td>
+        <td>Food Scraps</td>
+      <tr>
+        <td>Cardboard</td>
+        <td>Lightbulbs</td>
+        <td>Yard Waste</td>
+      </tr>
+      <tr>
+        <td>Plastic</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Glass</td>
+        <td></td>
+      </tr>
+        <td>Aluminum/Metal</td>
+        <td></td>
+      </tr>
+    </table>
+  </center>
+
+
+
+
+
+  <div id ="googleMap" style="width:100%;height:400px;"></div>
+<script>
+function myMap() {
+  //list of recycling center coordinates
+  centerList = [(37.827017, -122.252424),(37.823959, -122.285933),(37.923476, -122.365641),(37.878899, -122.304594),(37.920078, -122.298757),(37.875627, -122.304650),(37.862766, -122.290053),(37.820192, -122.286091),
+    (37.810902, -122.290000),(37.795457, -122.267502),(37.741741, -122.187654),(37.923956, -122.339805),(37.923415, -122.337059),(37.963621, -122.357830),(37.963715, -122.373391),(37.975376, -122.352004)]
+
+    //itterate through centerList
+    function getCenter(centerList){
+      for (var i = 0; i < centerList.length; i++){
+        createMarker(marker);//calls the function creatMarker
+      }
+    }
+  function createMarker(place){
+    var placeLoc = place.geometry.location;
+    var marker = new google.maps.Marker({
+        position: centerList[i],
+        icon: "greenPin.png"
+      });
+  }
+  var mapProp = {
+      //center of map and zoom factor
+      center:new google.maps.LatLng(37.806087, -122.285589),
+      zoom:5,
+  };
+  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  marker.setMap(map);
+  getCenter();
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYkiCzrnr-Z80sQBFyW6caVMNa3ruVY5w&callback=myMap"></script>
+</html>
