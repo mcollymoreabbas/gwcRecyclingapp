@@ -1,0 +1,101 @@
+body{
+  background-color: #eaffee;
+}
+h1{
+  font-family:'Lobster Two';
+  text-align: center;
+  font-size: 60px;
+  color:#1b5e20;
+}
+h2{
+  font-family:'Lobster Two';
+  color:#1b5e20;
+  font-size:40px;
+}
+h3{
+  font-family: 'Lobster Two';
+  font-size: 30px;
+  color: white;
+}
+p{
+  font-family:'Roboto';
+  color:rgb(111, 111, 111);
+  font-size: 20px;
+  line-height: 150%;
+}
+th{
+  background-color: rgb(112, 196, 105);
+  color:#1b5e20;
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+  font-family:'Lobster Two';
+  font-size: 25px;
+}
+td{
+  background-color: rgb(238, 238, 238);
+  color: rgb(111, 111, 111);
+  padding: 20px 30px;
+  font-family:'Roboto';
+}
+.nav ul {
+  list-style-type: none;
+  padding:10px;
+  margin-top:25px;
+  overflow: hidden;
+  background-image: url("https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    font-family: 'Lobster Two';
+    font-size: 25px;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 5px 90px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: #1b5e20;
+}
+table{
+  float: left;
+  padding: 5px;
+}
+a{
+  border-bottom: 10px;
+}
+.tips li{
+  font-size: 20px;
+  font-family: 'Roboto';
+  color:#2f9e41;
+  line-height: 200%;
+}
+.tips{
+  background-color: #eaffee;
+}
+button.accordian{
+  color: #444;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  background-color: #ffae59;
+}
+button.accordian.active, button.accordian:hover{
+  background-color: #ff901c;
+}
+div.panel{
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+}
+img{
+  float: right;
+}
