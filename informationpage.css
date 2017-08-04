@@ -7,7 +7,7 @@ h1 {
 }
 h2 {
   font-family: verdana;
-  font-size: 180%;
+  font-size: 40px;
 }
 body {
   background-color: #eaffee;
@@ -15,10 +15,13 @@ body {
   margin-right: 0.5cm;
 }
 p {
+  margin-left: 140px;
+  margin-right: 140px;
   text-indent: 2em;
   font-family: "Roboto";
   color:rgb(111, 111, 111);
-  font-size: 130%;
+  font-size: 20px;
+  line-height: 150%;
 }
 .leaf {
   display: inline-block;

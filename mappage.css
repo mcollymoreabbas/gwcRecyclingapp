@@ -11,6 +11,7 @@ h2{
   font-family:'Lobster Two';
   color:#1b5e20;
   font-size:40px;
+  margin-left: 100px;
 }
 h3{
   font-family: 'Lobster Two';
@@ -97,4 +98,8 @@ div.panel{
 }
 img{
   float: right;
+}
+.paragraph{
+  margin-left: 140px;
+  margin-right: 140px;
 }

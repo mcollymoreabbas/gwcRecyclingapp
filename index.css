@@ -2,8 +2,8 @@
   margin-bottom: 50px;
 }
 .speech {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 140px;
+  margin-right: 140px;
   font-size: 140%;
   font-style: 'Roboto';
   color:rgb(111, 111, 111);
@@ -12,7 +12,7 @@
   font-family: 'Lobster Two';
   color: #fc8e3f;
   font-size: 180%;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 
 * {
