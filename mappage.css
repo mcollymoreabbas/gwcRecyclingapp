@@ -39,23 +39,23 @@ td{
   font-family:'Roboto';
 }
 .nav ul {
-  list-style-type: none;
-  padding:10px;
-  margin-top:25px;
-  overflow: hidden;
-  background-image: url("https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 19px;
+    overflow: hidden;
+    background-image: url(https://static.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg); //put in everyone's document
 }
 .nav li {
     float: left;
 }
 .nav li a {
-    font-family: 'Lobster Two';
-    font-size: 25px;
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 5px 90px;
-    text-decoration: none;
+  font-family: "Lobster Two";
+  font-size: 150%;
+  display: inline-flex;
+  color: white;
+  text-align: center;
+  padding: 5px 95px;
+  text-decoration: none;
 }
 .nav li a:hover {
     background-color: #1b5e20;
