@@ -137,5 +137,8 @@ body {
 .quote{
   font-family: "Lobster Two";
   color:#c4b7d0;
-  margin-bottom: -20;
+  margin-bottom: -20px;
+}
+.pix{
+  height: 40%;
 }
