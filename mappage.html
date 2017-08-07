@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Ways to Help</title>
-    <link rel='shortcut icon' type='image/x-icon' href='https://image.ibb.co/k31uma/favicon.png' />
     <script type="text/javascript" src = "mappage.js"></script>
     <link rel="stylesheet" href = "mappage.css">
+    <link rel='shortcut icon' type='image/x-icon' href='https://image.ibb.co/k31uma/favicon.png' />
+
   </head>
 <body>
   <center><img src = "https://image.ibb.co/i5EQsF/logo.png" alt = "logo" border = "0" style = "width:300px; margin-right: 39.5%;" /></center>
@@ -21,34 +22,36 @@
   <br>
   <br>
   <br>
-
-  <div class= nav>
-    <ul>
-      <li style = "text-align:center"><a href =  index.html>Home</a></li>
-      <li style = "text-align:center"><a href =  informationpage.html>Reycling Information</a></li>
-      <li style = "text-align:center"><a href =  mappage.html>How You Can Help</a></li>
-      <li style = "text-align:center"><a href =  contactpage.html>Contact Information</a></li>
-    </ul>
-  </div>
-  <h1>How You can Help</h1>
+  <div class="topnav" id="myTopnav">
+  <ul>
+    <a href =  index.html>Home</a>
+    <a href =  informationpage.html>Reycling Information</a>
+    <a href =  mappage.html>How You Can Help</a>
+    <a href =  contactpage.html>Contact Information</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </ul>
+</div>
+    <h1>How You can Help</h1>
 
 
   <link href='https://fonts.googleapis.com/css?family=Lobster Two' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+  <body>
     <h2>Where to Start?</h2>
     <div class = "paragraph">
     <p>Recycling used and un-used items is always a good way to protect the environment from the harmful effects of landfills and litter, but knowing
-    what to recycle and where to recycle can be quite the task if you don't already know where to start. First, it's important to know what to recycle
-    and where to recycle it. often times it will be advised against collection crertain recyclable materials at your home, in which case, you'll have to
-    know where to bring that material so it can be recycled.  </p>
-    <p>Below are some helpful pieces information regarding the appropriate recycling techniques as well as a table that should give you an
-    idea about what can be picked up by the your local recycling service, what needs to be brought to your local center, and what materials aren't recyclable,
-    but can be composted instead. Though many recycling  it should be noted that what is consiidered "recyclable" varries from place to place,
-    so make sure to check your the guidlines of your local service before embarking on your recycling adventures. </p>
-    </div>
-    <div id = "note">
+    what to recycle and where to recycle can be quite the task if you don't know where to start. For starters, it's important to know what to recycle
+    and where to recycle it. Often times it will be advised against collecting crertain recyclable materials at your home, as they may contain hazardous materials, so you'll have to
+    know where to bring those materials so that they can be recycled properly and safely. Additionally, recycling is a big task and can be expensive (just being real), but just know that it is well worth the effort.
+    Filling up our landfills with waste may be cheaper now, but we'll have to pay for it later. So be green, because so much can be gained from persuing a less wasteful lifestyle. Recycling is just one way, of many, that you can ensure a better future for us and the planet. </p>
 
-    </div>
+    <p>Below are some helpful pieces information regarding appropriate recycling techniques as well as a table that should give you an
+    idea about what can be picked up by the your local recycling service, what needs to be brought to your local center, and what materials aren't recyclable,
+    but can be composted instead. Make sure to check out the map at the bottom of the page as well. You can find nearby recycling centers in the Bay Area with
+    this handy dandy resource. </p>
+  </div>
+
     <table style = "width: 100%">
       <tr>
         <th><b>Recycle at Home</b> *</th>
@@ -80,17 +83,17 @@
       </tr>
     </table>
     <div class = "paragraph">
-    <p>* This table is not a strict guideline; <br>
-      the placement of items in this table may change due to regional differences regarding recycling regulations. </p>
+    <p>* This table is a loose guidline; <br>
+      the placement of items in this table may change due to regional differences regarding recycling practices. </p>
     </div>
     <div class = "tips">
+      <h2>More on Recyclables</h2>
       <button class="accordian"><h3>Paper/Cardboard</h3></button>
       <div class="panel">
         <img src="https://image.ibb.co/jcoyga/paper.jpg" alt="paper" height="360" width="520">
         <ul>
           <li><b>Office paper</b></li>
             <ul>
-              <li>High-grade: white computer paper, bond paper, and letterhead paper</li>
               <li>High-grade: white computer paper, bond paper, and letterhead paper</li>
             </ul>
           <li><b>Newspapers</b></li>
@@ -105,13 +108,14 @@
             </ul>
           <li><b>Phone books</b></li>
           <li><b>Magazines</b></li>
-          <li><b>corrugated cardboard</b></li>
+          <li><b>Currugated cardboard</b></li>
         </ul>
       </div>
 
       <button class="accordian"><h3>Plastic</h3></button>
       <div class="panel">
         <img src="https://preview.ibb.co/faDaSF/recycling_symbols.jpg" alt="recycling_symbols" width="500" height="350" style = "padding: 20px;">
+        <p>What do the numbers mean?</p>
         <ul>
           <li><b>#1 – PET</b> (Polyethylene Terephthalate)</li>
             <ul>
@@ -125,12 +129,51 @@
               <li>Also recyclable at home</li>
               <li>Reuseable</li>
             </ul>
-          <li><b>PVC</b> (Polyvinyl Chloride)</li>
+          <li><b>#3 - PVC</b> (Polyvinyl Chloride)</li>
+            <ul>
+              <li>Soft flexible plastic - window frames, watering hoses, clear food wrapping, cooking oil bottles, children’s and pets’ toys</li>
+              <li>“Poison plastic” - contains many toxins that can be leached into the soil and affect the environment</li>
+              <li>Is not recyclable, but can be repurposed (do not reuse with food or for children)</li>
+            </ul>
+          <li><b>#4 - LDPE</b> (Low-Density Polyethylene)</li>
+            <ul>
+              <li>Found in shrink wrap, garment bags, squeezable bottles, and plastic bags</li>
+              <li>May be reused (less toxic than other plastics)</li>
+              <li>Check with local collection service to see if they recycle LDPE items</li>
+            </ul>
+          <li><b>#5 – PP</b> (Polypropylene)</li>
+            <ul>
+              <li>Tough, lightweight, heat resistant plastic - pails, plastic bottle tops, yogurt containers, straws, packing tape</li>
+              <li>Only about 3% of PP products are currently being recycled (increasing)</li>
+              <li>Safe for reuse</li>
+              <li>Check with local collection service to see if they recycle PP items</li>
+            </ul>
+          <li><b>#6 – PS</b> (Polystyrene)</li>
+            <ul>
+              <li>Lightweight, shapeable plastic - styrofoam cups, “clamshell” take out containers, egg cartons, packing peanuts</li>
+              <li>Structurally weak - break apart easily and leach chemicals like styrene into the environment/food products</li>
+              <li>Cannot currently be recycled</li>
+              <li>Accounts for 35% of US landfill material</li>
+              <li>Some places that reuse polystyrene</li>
+                <ul>
+                  <li>Mailboxes Etc.</li>
+                </ul>
+              <li>In general, Try to avoid use</li>
+            </ul>
+          <li><b>#7 – Other</b> (BPA, Polycarbonate and LEXAN)</li>
+            <ul>
+              <li>Catch all category for polycarbonate and “other” plastics - baby bottles, sippy cups, water bottles, car parts</li>
+              <li>Reuse and recycling protocols are not standardized</li>
+              <li>“PC” labeled plastic items contain BPA</li>
+              <li>Include compostable plastics - marked with “PLA” (do not recycle)</li>
+              <li>Not for reuse unless marked with "PLA"</li>
+            </ul>
         </ul>
       </div>
 
       <button class="accordian"><h3>Glass</h3></button>
       <div class="panel">
+        <img src="https://image.ibb.co/hYdEpv/glass.jpg" alt="glass" border="0" />
         <ul>
           <li><b>Clear glass</b></li>
           <li><b>Brown glass</b></li>
@@ -143,8 +186,10 @@
             </ul>
         </ul>
       </div>
+
       <button class="accordian"><h3>Metal</h3></button>
       <div class="panel">
+        <img src="https://image.ibb.co/j2YfUv/cans.jpg" alt="cans" border="0" />
         <ul>
           <li><b>Aluminum cans</b> are 100% recyclable. After emptying the cans,
             you can throw them into a recycling bin or take them to scrap yards or recycling centers, where you can trade them in for cash.</li>
@@ -158,11 +203,54 @@
                 <li>Soup cans, vegetable cans, tuna cans</li>
               </ul>
         </ul>
-      <button class="accordian"><h3>Metal</h3></button>
-        <div class="panel">
       </div>
+
+        <button class="accordian"><h3>Batteries</h3></button>
+        <div class="panel">
+        <img src="https://preview.ibb.co/bCrTGa/batteries.jpg" alt="batteries" border="0" width="500" height="500">
+          <ul>
+            <li><b>Car batteries</b></li>
+              <ul>
+                <li>Can be taken to automobile dealers, auto parts shops, or service shop</li>
+                <li>Can be taken to scrap yards for money</li>
+              </ul>
+            <li>Household and button batteries</li>
+              <ul>
+                <li>Consider using rechargeable batteries if you use batteries often</li>
+                <li>Can be brought to local household hazardous waste locations</li>
+                <li>Cities may also hold household hazardous waste collection days</li>
+                <li>Alkaline batteries may be thrown in the trash in most states (it’s illegal in California) but are highly encouraged to be recycled</li>
+                <li>If you have many batteries to recycle, there are mail-in programs where you can purchase a box to store used batteries and mail it back for the organization to recycle</li>
+                  <ul>
+                    <li>WM Think Green From Home Dry Cell Battery Recycling Kit</li>
+                    <li>The Big Green Box</li>
+                  </ul>
+                <li>Rechargeable batteries</li>
+                  <ul>
+                    <li>Laptop batteries, batteries for cordless appliances</li>
+                  </ul>
+              </ul>
+          </ul>
+        </div>
+
+        <button class="accordian"><h3>Lightbulbs</h3></button>
+        <div class="panel">
+          <img src="https://image.ibb.co/gpsqUv/lightbulbs.jpg" alt="lightbulbs" border="0"/>
+          <ul>
+            <li>Incandescent light bulbs, halogen light bulbs, and LEDs can be thrown in the trash</li>
+            <li>Compact fluorescent lights (CFL) and fluorescent tubes contain mercury, which can be toxic, so they cannot be thrown in the trash</li>
+            <li>Bring to hardware stores or household hazardous waste locations to recycle</li>
+              <ul>
+                <li>Some also accept LEDs and incandescent and halogen light bulbs</li>
+                <li>Can also request local waste collection organizations to pick them up</li>
+              </ul>
+            <li>Can also purchase mail-in recycling kits</li>
+          </ul>
+        </div>
+
       <div class="remember">
         <h2>Remember:</h2>
+        <div class = "paragraph">
         <ul>
           <li>Flatten recycled items for easy handeling and storage later on </li>
           <li>Check your area's recycling guidlines</li>
@@ -171,7 +259,7 @@
           <li>Remember to clean/ empty glass bottles before recycling</li>
           <li>Some curbside recycling programs may require you to sort the glass by color</li>
           <li>Broken and unwashed glass cannot be recycled at home; bring to a recycling center </li>
-          <li>Other thigs that can't be recycled at home:</li>
+          <li>Other things that can't be recycled at home:</li>
             <ul>
               <li>Ceramics</li>
               <li>Heat-resistant glass</li>
@@ -181,12 +269,13 @@
         </ul>
       </div>
     </div>
-  </body>
-    <h2>Find a Recycling Center Near You</h2>
+
+
+    <h2>Find a Recycling Center Near You:</h2>
     <div class = "paragraph">
     <p>Sometimes it's not safe to store certain recyclables in our homes, so
-       it's important to know where you can take those items and get them recycled!</p>
-    </div>
+       it's imporatant to know where you can take those items and get them recycled!</p>
+     </div>
 
   <div id ="googleMap" style="width:100%;height:400px;"></div>
 <script>

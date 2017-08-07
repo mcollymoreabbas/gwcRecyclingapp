@@ -16,12 +16,15 @@
 
   <body>
     <center><img src = "https://image.ibb.co/i5EQsF/logo.png" alt = "logo" border = "0" style = "width:300px;" /></center>
+    <div class="topnav" id="myTopnav">
     <ul>
-      <li style = "text-align:center"><a href =  index.html>Home</a></li>
-      <li style = "text-align:center"><a href =  informationpage.html>Reycling Information</a></li>
-      <li style = "text-align:center"><a href =  mappage.html>How You Can Help</a></li>
-      <li style = "text-align:center"><a href =  contactpage.html>Contact Information</a></li>
+      <a href =  index.html>Home</a>
+      <a href =  informationpage.html>Reycling Information</a>
+      <a href =  mappage.html>How You Can Help</a>
+      <a href =  contactpage.html>Contact Information</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </ul>
+  </div>
     <h2>
         <a href = "https://ibb.co/nd90ba"><img src = "https://thumb.ibb.co/nd90ba/recycle.png" alt = "recycle" border = "0"></a>National Organizations<a href = "https://ibb.co/nd90ba"><img src = "https://thumb.ibb.co/nd90ba/recycle.png" alt = "recycle" border = "0"></a>
       </h2>
@@ -76,5 +79,14 @@
       </footer>
     </center>
   </body>
-
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
 </html>
