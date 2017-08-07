@@ -39,6 +39,7 @@ p {
 }
 
 .topnav a {
+  margin-bottom: 12px;
   font-size: 150%;
   color: white;
   font-family: "Lobster Two";
