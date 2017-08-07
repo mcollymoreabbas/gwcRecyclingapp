@@ -1,6 +1,8 @@
 .header {
   margin-left: 200px;
 }
+body {margin:0;}
+
 h1 {
   color: #1b5e20;
   font-size: 250%;
@@ -13,6 +15,8 @@ h2 {
 }
 body {
   background-color: #eaffee;
+}
+.body{
   margin-left: 0.5cm;
   margin-right: 0.5cm;
 }
@@ -33,6 +37,7 @@ p {
 }
 
 .topnav {
+  margin-top: -2px;
   margin-bottom: 40px;
   overflow: hidden;
   background-image: url(https://static.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg); //put in everyone's document
