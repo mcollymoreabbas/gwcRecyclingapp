@@ -26,7 +26,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -34,7 +36,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -45,20 +49,19 @@
     display: block;
     text-align: left;
   }
-
 }
-body{
+body {
   font-family: 'Roboto';
   background-color: #eaffee;
   margin: 0;
 }
-h1{
+h1 {
   color: #1b5e20;
   font-size: 250%;
   font-family: "Lobster Two";
 }
-.links{
+.links {
   font-family: "Roboto";
   font-size: 120%;
-  color:rgb(111, 111, 111);
+  color: rgb(111, 111, 111);
 }

@@ -7,14 +7,13 @@ h1 {
   font-size: 30px;
 }
 
-
 body {
   background-color: #eaffee;
 }
 h2 {
   text-align: center;
   font-family: "Lobster Two";
-  color:#1b5e20;
+  color: #1b5e20;
 }
 .pics {
   margin-bottom: 50px;
@@ -30,7 +29,7 @@ h2 {
   font-family: "Lobster Two";
   font-size: 240%;
 }
-.Name{
+.Name {
   font-family: 'Lobster Two';
   color: #fc8e3f;
   font-size: 180%;
@@ -53,8 +52,9 @@ h2 {
   padding: 14px 16px;
   text-decoration: none;
 }
-body {margin:0;}
-
+body {
+  margin: 0;
+}
 
 .topnav a:hover {
   background-color: #68db92;
@@ -65,7 +65,9 @@ body {margin:0;}
 }
 
 @media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -73,7 +75,9 @@ body {margin:0;}
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -84,10 +88,9 @@ body {margin:0;}
     display: block;
     text-align: left;
   }
-
 }
-.email{
+.email {
   font-family: "Roboto";
   font-size: 120%;
-  color:rgb(111, 111, 111);
+  color: rgb(111, 111, 111);
 }
