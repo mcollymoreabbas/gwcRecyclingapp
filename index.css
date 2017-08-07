@@ -20,6 +20,8 @@
 }
 body {
   font-family: 'Roboto';
+  background-color: #eaffee;
+  margin: 0;
 }
 .mySlides {
   display: none;
@@ -100,9 +102,6 @@ body {
   }
 }
 
-body {
-  background-color: #eaffee;
-}
 .Founder {
   padding: 20px;
   margin-top: 50px;
@@ -121,7 +120,6 @@ body {
 .pix{
   height: 10%;
 }
-body {margin:0;}
 
 .topnav {
   margin-bottom: 40px;
@@ -150,7 +148,7 @@ body {margin:0;}
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;

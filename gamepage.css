@@ -1,43 +1,3 @@
-body {
-  background-color: #eaffee;
-}
-h1 {
-  text-align: center;
-  font-family: 'Lobster Two';
-  font-size: 30px;
-}
-
-
-body {
-  background-color: #eaffee;
-}
-h2 {
-  text-align: center;
-  font-family: "Lobster Two";
-  color:#1b5e20;
-}
-.pics {
-  margin-bottom: 50px;
-  margin-left: 20px;
-}
-footer {
-  display: table;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-h2 {
-  font-family: "Lobster Two";
-  font-size: 240%;
-}
-.Name{
-  font-family: 'Lobster Two';
-  color: #fc8e3f;
-  font-size: 180%;
-}
-.email{
-
-}
 .topnav {
   margin-bottom: 40px;
   overflow: hidden;
@@ -56,8 +16,6 @@ h2 {
   padding: 14px 16px;
   text-decoration: none;
 }
-body {margin:0;}
-
 
 .topnav a:hover {
   background-color: #68db92;
@@ -88,4 +46,9 @@ body {margin:0;}
     text-align: left;
   }
 
+}
+body{
+  font-family: 'Roboto';
+  background-color: #eaffee;
+  margin: 0;
 }
