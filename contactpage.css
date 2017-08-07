@@ -35,9 +35,6 @@ h2 {
   color: #fc8e3f;
   font-size: 180%;
 }
-.email{
-
-}
 .topnav {
   margin-bottom: 40px;
   overflow: hidden;
@@ -88,4 +85,8 @@ body {margin:0;}
     text-align: left;
   }
 
+}
+.email{
+  font-family: "Roboto";
+  font-size: 120%;
 }

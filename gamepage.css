@@ -52,3 +52,12 @@ body{
   background-color: #eaffee;
   margin: 0;
 }
+h1{
+  color: #1b5e20;
+  font-size: 250%;
+  font-family: "Lobster Two";
+}
+.links{
+  font-family: "Roboto";
+  font-size: 120%;
+}
