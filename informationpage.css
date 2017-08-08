@@ -39,7 +39,6 @@ p {
 }
 
 .topnav {
-  margin-top: -2px;
   margin-bottom: 40px;
   overflow: hidden;
   background-image: url(https://static.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg); //put in everyone's document
@@ -58,6 +57,10 @@ p {
   text-decoration: none;
 }
 
+body{
+  margin: 0;
+}
+
 .topnav a:hover {
   background-color: #68db92;
 }
@@ -67,9 +70,7 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -77,9 +78,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {
-    position: relative;
-  }
+  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -90,4 +89,5 @@ p {
     display: block;
     text-align: left;
   }
+
 }

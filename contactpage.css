@@ -52,7 +52,8 @@ h2 {
   padding: 14px 16px;
   text-decoration: none;
 }
-body {
+
+body{
   margin: 0;
 }
 
@@ -65,9 +66,7 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -75,9 +74,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {
-    position: relative;
-  }
+  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -88,7 +85,9 @@ body {
     display: block;
     text-align: left;
   }
+
 }
+
 .email {
   font-family: "Roboto";
   font-size: 120%;
