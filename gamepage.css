@@ -64,12 +64,13 @@ h1 {
 .links {
   font-family: "Roboto";
   font-size: 120%;
+  background-color: #662802;
 }
 .links a:link{
-  color: #662802;
+  color: white;
 }
 .links a:visited{
-  color: #cc8559;
+  color: #ffb5e8;
 }
 .image{
   margin-bottom: -110px;
