@@ -72,5 +72,126 @@ h1 {
   color: #cc8559;
 }
 .image{
-  margin-bottom: -140px;
+  margin-bottom: -110px;
+}
+body{
+  background-color: #eaffee;
+}
+p{
+  font-size: 35px;
+  font-family: 'Roboto';
+  margin-left: 80px;
+  color: #1b5e20;
+}
+label {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #fc8e3f;
+}
+.game {
+  margin-left: 300px;
+  position: relative;
+}
+
+
+
+#button {
+  text-align: center;
+}
+.button_start {
+  position:absolute;
+  right:56.5%;
+  top:30%;
+  background-color:#ff7970;
+  border:#ff7970;
+  padding: 5px 30px;
+  border-radius: 8px;
+  font-family: 'Shadows Into Light';
+  font-size: 20px;
+
+}
+
+#result{
+  text-align: center;
+  font-size: 40px;
+  margin-right: 300px;
+}
+.button_start:hover {
+    background-color:#ffae59;
+    color: black;
+}
+.compost {
+  visibility: hidden;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.recycling{
+  visibility: hidden;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+#plasticbottle {
+  top:25%;
+  left:37%;
+}
+#bottle {
+  top:25%;
+  left:37%;
+}
+
+#milk {
+  top: 16%;
+  left: 31%;
+}
+
+#lightbulb {
+  top: 24%;
+  left: 36%;
+}
+
+#styrofoam {
+  top: 18%;
+  left: 32%
+}
+
+#can {
+  top: 25%;
+  left: 36%
+}
+
+#pvc  {
+  top: 18%;
+  left: 32%
+}
+.hazardous{
+  visibility: hidden;
+  position: absolute;
+  top: 25%;
+  left:35%;
+}
+
+.trash{
+  visibility: hidden;
+  position: absolute;
+  top: 25%;
+  left:35%;
+}
+
+.bin{
+  visibility: hidden;
+  margin-top: 0px;
+  margin-left: 450px;
+  display: inline-block;
+}
+
+#lblScore {
+  visibility: hidden;
+}
+
+#score {
+  text-align: center;
+  margin-right: 250px;
 }
