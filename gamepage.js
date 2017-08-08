@@ -19,11 +19,11 @@ $( document ).ready(function() {
 
 function answer() {
   document.getElementById("result").style.visibility = 'hidden';
-}
+}//hides the previous result
 
 function show(){
   document.getElementById("result").style.visibility = 'visible';
-}
+}//shows the result
 
 function checkBin(can){
   if (bins[images[currentImageIndex]] === can ) {
@@ -35,7 +35,7 @@ function checkBin(can){
     document.getElementById("result").innerHTML="You're correct!";
     window.setTimeout(answer,500);
     currentImageIndex = currentImageIndex + 1;
-  }
+  }//checks if the current image is in the right bin and adds a point accordingly
 
   else {
     document.getElementById(images[currentImageIndex]).style.visibility = 'hidden';
@@ -43,7 +43,7 @@ function checkBin(can){
     document.getElementById("result").innerHTML="Nope!";
     window.setTimeout(answer,500);
     currentImageIndex = currentImageIndex + 1;
-
+    //this is if the image is in the wrong bin, then it doesn't add a point
   }
 
   console.log(currentImageIndex);
@@ -57,25 +57,17 @@ function checkBin(can){
 
   $('#recycling').click(function(){
     checkBin("recycling");
-
   })
-
   $('#compost').click(function(){
     checkBin("compost");
-
   })
-
   $('#trash').click(function(){
     checkBin("trash");
-
   })
-
   $('#hazardous').click(function(){
     checkBin("hazardous");
-
   })
  var q=0;
-
  var currentImageIndex = 0;
 
  function swapImage(){

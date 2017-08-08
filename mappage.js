@@ -23,23 +23,19 @@ function myMap() {
 
   ];
 var infowindow = new google.maps.InfoWindow()
-
+//opens the address of the recycling center when the pin is clicked on
   var mapProp = {
       //center of map and zoom factor
       center:new google.maps.LatLng(37.867153, -122.279522),
       zoom:10,
   };
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-  //itterate through centerList
   function placePins(centerList, map){
-    //for (var i = 0; i < centerList.length; i++){
-      // var latLng = new google.maps.LatLng( centerList[1], centerList[2]);
       var marker = new google.maps.Marker({
           position: {lat: centerList[1], lng: centerList[2]},
           map: map,
           icon: "https://image.ibb.co/kymg2F/rsz_1rsz_green_pin.png"
-      });
+      });//creates a marker at every listed location
       google.maps.event.addListener(marker, 'click', function(){
           infowindow.close(); // Close previously opened infowindow
           infowindow.setContent(centerList[0]);
@@ -48,7 +44,7 @@ var infowindow = new google.maps.InfoWindow()
   }
   for(var i=0; i<centerList.length; i++) {
       placePins( centerList[i], map );
-    }
+    }//iterate through centerList
 }
 function myFunction() {
     var x = document.getElementById("myTopnav");
