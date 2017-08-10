@@ -48,7 +48,7 @@ function checkBin(can){
 
   console.log(currentImageIndex);
   if(currentImageIndex >= 13) {
-    document.getElementById("score").innerHTML = "You got "+score+" out of 13 correct!"+"<br>"+"<b>"+"Refer back to the website to learn more about the answers you missed."+"</b>";
+    document.getElementById("score").innerHTML = "You got "+score+" out of 13 correct!"+"<br>"+"<b>"+"Refer back to the website to learn more about the answers you may have missed."+"</b>";
   }
   else {
     swapImage();
